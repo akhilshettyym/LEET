@@ -14,4 +14,3 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     print(sol.getSecondLargest([12, 35, 1, 10, 34, 1]))
-    
