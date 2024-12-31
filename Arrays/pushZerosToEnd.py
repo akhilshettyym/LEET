@@ -15,3 +15,4 @@ arr = [3, 5, 0, 0, 4]
 sol = Solution()
 result = sol.pushZerosToEnd(arr)
 print(result)
+# Output: [3, 5, 4, 0, 0]
