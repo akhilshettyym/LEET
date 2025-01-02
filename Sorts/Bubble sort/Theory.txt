@@ -1,0 +1,32 @@
+Bubble Sort: A Detailed Explanation
+Bubble Sort is one of the simplest sorting algorithms. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process is repeated until the list becomes sorted.
+
+How It Works
+Pass Through the List:
+
+Start at the beginning of the list.
+Compare each pair of adjacent elements.
+If the first element is greater than the second, swap them.
+Repeat:
+
+Continue this process for all elements in the list.
+After each pass, the largest element "bubbles up" to its correct position at the end.
+Optimization:
+
+In subsequent passes, ignore the last elements that are already sorted.
+If no swaps are made during a pass, the list is already sorted, and the algorithm can stop early.
+
+Time Complexity of Bubble Sort
+Bubble Sort compares adjacent elements and swaps them if they are in the wrong order. Its time complexity depends on the number of comparisons and swaps performed during the sorting process.
+
+Best Case (Already Sorted Array):
+If the array is already sorted, Bubble Sort still iterates through the entire array.
+However, no swaps are performed since the elements are already in order.
+Optimization: The algorithm can stop early when no swaps occur (as shown in optimized Bubble Sort).
+
+Time Complexity: O(n) (1 pass through the array).
+Worst Case (Reversed Array):
+In the worst case, Bubble Sort performs n(n-1)/2 comparisons and swaps.
+For a reversed array, every element must be compared and swapped in every iteration.
+
+Space complexity - BigOh(1)
